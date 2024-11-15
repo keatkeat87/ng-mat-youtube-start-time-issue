@@ -9,4 +9,6 @@ import { YouTubePlayerModule } from '@angular/youtube-player';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
+  ready = false;
+  stateChange = false
 }
